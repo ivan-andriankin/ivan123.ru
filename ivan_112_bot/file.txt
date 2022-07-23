@@ -1,0 +1,929 @@
+$data: Array
+(
+    [update_id] => 502215691
+    [message] => Array
+        (
+            [message_id] => 1
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658370050
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215692
+    [message] => Array
+        (
+            [message_id] => 2
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377340
+            [text] => тексе
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215693
+    [message] => Array
+        (
+            [message_id] => 4
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377344
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215694
+    [message] => Array
+        (
+            [message_id] => 6
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377365
+            [text] => кнопки
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215695
+    [message] => Array
+        (
+            [message_id] => 8
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377405
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215696
+    [message] => Array
+        (
+            [message_id] => 9
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377417
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215697
+    [message] => Array
+        (
+            [message_id] => 10
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377607
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215698
+    [message] => Array
+        (
+            [message_id] => 11
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377614
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215699
+    [message] => Array
+        (
+            [message_id] => 13
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377795
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215700
+    [message] => Array
+        (
+            [message_id] => 14
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377801
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215701
+    [message] => Array
+        (
+            [message_id] => 16
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377815
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215702
+    [message] => Array
+        (
+            [message_id] => 18
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377856
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215703
+    [message] => Array
+        (
+            [message_id] => 20
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658377957
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215704
+    [message] => Array
+        (
+            [message_id] => 21
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378028
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215705
+    [message] => Array
+        (
+            [message_id] => 22
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378036
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215706
+    [message] => Array
+        (
+            [message_id] => 23
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378047
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215707
+    [message] => Array
+        (
+            [message_id] => 24
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378055
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215708
+    [message] => Array
+        (
+            [message_id] => 25
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378110
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215709
+    [message] => Array
+        (
+            [message_id] => 27
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378129
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215710
+    [message] => Array
+        (
+            [message_id] => 29
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378134
+            [text] => кнопки
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215711
+    [message] => Array
+        (
+            [message_id] => 31
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378138
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215712
+    [message] => Array
+        (
+            [message_id] => 33
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378141
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215713
+    [message] => Array
+        (
+            [message_id] => 35
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378151
+            [text] => Button 1
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215714
+    [message] => Array
+        (
+            [message_id] => 37
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378154
+            [text] => Button 2
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215715
+    [message] => Array
+        (
+            [message_id] => 39
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378156
+            [text] => Button 3
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215716
+    [message] => Array
+        (
+            [message_id] => 41
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378157
+            [text] => Button 4
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215717
+    [message] => Array
+        (
+            [message_id] => 43
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378303
+            [text] => текст
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215718
+    [message] => Array
+        (
+            [message_id] => 45
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378312
+            [text] => видео\
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215719
+    [message] => Array
+        (
+            [message_id] => 47
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378316
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215720
+    [message] => Array
+        (
+            [message_id] => 49
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378320
+            [text] => ывафы
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215721
+    [message] => Array
+        (
+            [message_id] => 51
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378337
+            [text] => Button 4
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215722
+    [message] => Array
+        (
+            [message_id] => 53
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378529
+            [text] => видео
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215723
+    [message] => Array
+        (
+            [message_id] => 55
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => en
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658378531
+            [text] => фыва
+        )
+
+)
+
+$data: Array
+(
+    [update_id] => 502215724
+    [message] => Array
+        (
+            [message_id] => 57
+            [from] => Array
+                (
+                    [id] => 196923634
+                    [is_bot] => 
+                    [first_name] => Ivan A
+                    [language_code] => ru
+                )
+
+            [chat] => Array
+                (
+                    [id] => 196923634
+                    [first_name] => Ivan A
+                    [type] => private
+                )
+
+            [date] => 1658380099
+            [text] => Текст
+        )
+
+)
+
