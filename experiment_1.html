@@ -1,0 +1,94 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome here!</title>
+</head>
+<body id="bodyID_1" name="body_name_1">
+
+    <h2>типы списков</h2>
+    <ol>
+        
+        <li>нумерованный</li>
+        <ol start="4">
+            <li>пункт</li>
+            <li>еще пункт</li>
+            <li>и еще пункт</li>
+        </ol>
+
+        <li>маркированный</li>
+        <ul>
+            <li>пункт</li>
+            <li>еще пункт</li>
+            <li>и еще пункт</li>
+        </ul>
+        
+        <li>многоуровневый</li>
+        <ol type="a">
+            <li>пункт а</li>
+            <li>еще пункт бэ</li>
+            <li>и еще пункт цэ</li>
+        </ol>
+
+    </ol>
+
+    <table width="45%" height="200" frame="hsides" rules="rows" border=2>
+        <caption>эта таблица <br> tu tu tu</caption>
+        <tr bgcolor="pink"><th>ячейка в загаловке</th><th>еще ячейка в загаловке</th><th>ячейка</th></tr>
+        <tr><td>ячейка в строке 1</td><td>еще ячейка в строке 1</td><td>и еще одна в строке 1</td></tr>
+        <tr><td>принциы понятен</td><td>ыц3фыа</td><td>ываыв</td></tr>
+    </table>
+
+    <form>
+        <br>фамилия:
+        <br><input type="text" value="Ivanov"><br>
+        
+        <!- группа переключателей -->
+        <br><input type="radio" name="color">white
+        <br><input type="radio" name="color">black
+        <br><input type="radio" name="color">green <br>
+
+        <!- группа флажков -->
+        <br><input type="checkbox" name="fruit">animal
+        <br><input type="checkbox" name="fruit">insect
+        <br><input type="checkbox" name="fruit">fish<br>
+
+        <!- группа кнопок -->
+        <br><input type="button" value="отправь мне имейл" onclick="window.open('mailto:andriankin.ivan@yandex.ru');">
+        <br><input type="button" value="глянь на фотки" onclick="window.open('http:\\\\www.vk.com');">
+    </form>
+
+    <p>текст абзаца</p>
+    <p innerText="текст абзаца"></p>
+
+    <form>
+        <!- group -->
+        <input type="button" value="кликни тут, ну же" onclick="alert('зачем кликнул?')"><br>
+        <input type="button" value="прикол" onclick="window.bodyID_1.bgColor='green'"><br>
+        <a href="javascript:def_show()" onclick="alert('текст и результат функции: ' + FirstFunction(3,2))">тест ссылка 1</a><br>
+
+        <input type="text" id="txt_field" name="txt_field" size="50">
+        <input type="button" value="ввести текст" onclick="insert_text(txt_field.value)">
+        <p id="par" name="par"></p>
+    </form>
+
+
+
+    
+    <!- скрипты -->
+    <script language="JavaScript" src="scripts/qqq_script.js"></script>
+
+    <script language="JavaScript">
+        function FirstFunction(a,b) {
+            return a*b;
+        };
+
+        function insert_text(text) {
+            par.innerText=text;
+        }
+
+    </script>
+
+
+
+</body>
+</html>

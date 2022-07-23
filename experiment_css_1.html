@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="css/new.css">
+    </head>
+
+    <body>
+        <p>бла бла бла</p>
+        <p>бла бла бла</p>
+    </body>
+</html>
+
+<?php
+    //Тест создания файла
+    $filename = "text.txt";
+
+    $file = fopen($filename, "wr");
+        fwrite($file, "Wu Tang Clan\nlit band");
+    fclose($file);
+    $file = fopen($filename, "a");
+        fwrite($file, "\nadded line");
+    fclose($file);
+
+    $file1 = fopen($filename, "r");
+        $contentOfFile1 = fread($file1, filesize($filename));
+    fclose($file1);
+?>
