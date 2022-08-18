@@ -59,18 +59,52 @@ echo $inputSuraNum;
 
 
 
-//Print array of suras from another file
 include "suraNames.php";
 $printSuras = [];
+$subArray = [];
 $suraNamesIndex = 0;
+
 for ($i = 1; $i <= 57; $i++) {
 
-    array_push($printSuras, $i[]);
-    
     for ($j = 1; $j <= 2; $j++) {
         $suraNamesIndex += 1;
-        array_push($printSuras[$i], $suraNames[$suraNamesIndex]);
+        $subArray[$j] = ['text' => $suraNames[$suraNamesIndex]];
     }
+    array_push($printSuras, $subArray);
 }
 
-print_arr($printSuras);
+
+$send_data = [
+            'text' => 'Here are my buttons',
+            'reply_markup' => [
+                'resize_keyboard' => true,
+                'keyboard' => $printSuras /*[
+                    [
+                        ['text' => '1) Aль-Фaтиxa / Oтĸpывaющaя'],
+                        ['text' => '2) Aль-Бaĸapa / Kopoвa']
+                    ],
+                    [
+                        ['text' => '3) Aль-Имpaн / Ceмeйcтвo Имpaнa'],
+                        ['text' => '4) Aн-Hиca / Жeнщины']
+                    ]
+                ]*/
+            ]
+];
+print_arr($send_data);
+
+
+//Print array of suras from another file
+
+$printSuras = [];
+$subArray = [];
+$suraNamesIndex = 0;
+
+for ($i = 1; $i <= 57; $i++) {
+
+    for ($j = 1; $j <= 2; $j++) {
+        $suraNamesIndex += 1;
+        $subArray[$j] = ['text' => $suraNames[$suraNamesIndex]];
+    }
+    array_push($printSuras, $subArray);
+}
+//print_arr($printSuras);

@@ -1,0 +1,140 @@
+$data: Array
+(
+    [message_id] => 141
+    [from] => Array
+        (
+            [id] => 196923634
+            [is_bot] => 
+            [first_name] => Ivan A
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => 196923634
+            [first_name] => Ivan A
+            [type] => private
+        )
+
+    [date] => 1660069338
+    [text] => adfwf
+)
+
+$data: Array
+(
+    [message_id] => 143
+    [from] => Array
+        (
+            [id] => 196923634
+            [is_bot] => 
+            [first_name] => Ivan A
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => 196923634
+            [first_name] => Ivan A
+            [type] => private
+        )
+
+    [date] => 1660069342
+    [text] => 10) Йyнyc / Иoнa
+)
+
+$data: Array
+(
+    [message_id] => 145
+    [from] => Array
+        (
+            [id] => 196923634
+            [is_bot] => 
+            [first_name] => Ivan A
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => 196923634
+            [first_name] => Ivan A
+            [type] => private
+        )
+
+    [date] => 1660069733
+    [photo] => Array
+        (
+            [0] => Array
+                (
+                    [file_id] => AgACAgIAAxkBAAORYvKnZY38e90--Y_KIzsEc8aRkicAAj--MRsxX5hLnBS-mlXH0SQBAAMCAANzAAMpBA
+                    [file_unique_id] => AQADP74xGzFfmEt4
+                    [file_size] => 1352
+                    [width] => 84
+                    [height] => 90
+                )
+
+            [1] => Array
+                (
+                    [file_id] => AgACAgIAAxkBAAORYvKnZY38e90--Y_KIzsEc8aRkicAAj--MRsxX5hLnBS-mlXH0SQBAAMCAANtAAMpBA
+                    [file_unique_id] => AQADP74xGzFfmEty
+                    [file_size] => 25374
+                    [width] => 298
+                    [height] => 320
+                )
+
+            [2] => Array
+                (
+                    [file_id] => AgACAgIAAxkBAAORYvKnZY38e90--Y_KIzsEc8aRkicAAj--MRsxX5hLnBS-mlXH0SQBAAMCAAN4AAMpBA
+                    [file_unique_id] => AQADP74xGzFfmEt9
+                    [file_size] => 84896
+                    [width] => 597
+                    [height] => 641
+                )
+
+        )
+
+)
+
+$data: Array
+(
+    [message_id] => 147
+    [from] => Array
+        (
+            [id] => 196923634
+            [is_bot] => 
+            [first_name] => Ivan A
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => 196923634
+            [first_name] => Ivan A
+            [type] => private
+        )
+
+    [date] => 1660070467
+    [text] => кнопки
+)
+
+$data: Array
+(
+    [message_id] => 148
+    [from] => Array
+        (
+            [id] => 196923634
+            [is_bot] => 
+            [first_name] => Ivan A
+            [language_code] => ru
+        )
+
+    [chat] => Array
+        (
+            [id] => 196923634
+            [first_name] => Ivan A
+            [type] => private
+        )
+
+    [date] => 1660070489
+    [text] => текст
+)
+
