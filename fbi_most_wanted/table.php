@@ -38,6 +38,7 @@ $usedKeys = [
     'dates_of_birth_used' => 'Dates of birth used'
 ];
 
+echo 'hello there.'."<br>";
 
 for ($i=0; $i < count($decodedFbiData['items']); $i++) {
 
