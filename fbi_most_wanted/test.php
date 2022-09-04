@@ -21,46 +21,7 @@ $decodedFbiData = json_decode($fbiData, true);
 
 //Test:
 //echo count($decodedFbiData['items']) . "<br>";
-//print_arr($decodedFbiData['items']) . "<br>";
-
-
-
-/*
-$decodedFbiData['items'];
-$decodedFbiData['items'][i]['reward_text'];
-$decodedFbiData['items'][i]['aliases'][j];
-$decodedFbiData['items'][i]['publication'];
-$decodedFbiData['items'][i]['warning_message'];
-$decodedFbiData['items'][i]['age_max'];
-$decodedFbiData['items'][i]['age_min'];
-$decodedFbiData['items'][i]['additional_information'];
-$decodedFbiData['items'][i]['height_min'];
-$decodedFbiData['items'][i]['height_max'];
-$decodedFbiData['items'][i]['field_offices'][j];
-$decodedFbiData['items'][i]['occupations'][j];
-$decodedFbiData['items'][i]['details'];
-$decodedFbiData['items'][i]['sex'];
-$decodedFbiData['items'][i]['scars_and_marks'];
-$decodedFbiData['items'][i]['build'];
-$decodedFbiData['items'][i]['nationality'];
-$decodedFbiData['items'][i]['caution'];
-$decodedFbiData['items'][i]['race_raw'];
-$decodedFbiData['items'][i]['hair'];
-$decodedFbiData['items'][i]['weight'];
-$decodedFbiData['items'][i]['place_of_birth'];
-$decodedFbiData['items'][i]['description'];
-$decodedFbiData['items'][i]['title'];
-$decodedFbiData['items'][i]['eyes'];
-$decodedFbiData['items'][i]['status'];
-$decodedFbiData['items'][i]['remarks'];
-$decodedFbiData['items'][i]['possible_states'];
-$decodedFbiData['items'][i]['subjects'];
-$decodedFbiData['items'][i]['languages'][j];
-$decodedFbiData['items'][i]['possible_countries'];
-$decodedFbiData['items'][i]['dates_of_birth_used'][j];
-
-*/
-
+//print_arr($decodedFbiData['items'][0]) . "<br>";
 
 
 

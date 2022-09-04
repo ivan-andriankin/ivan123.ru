@@ -2,85 +2,54 @@
 
 require 'test.php';
 
-$arr = [
-    ['name' => 'user1', 'age' => 30, 'salary' => 500],
-    ['name' => 'user2', 'age' => 31, 'salary' => 600],
-    ['name' => 'user3', 'age' => 32, 'salary' => 700],
+
+
+$usedKeys = [
+    'reward_text' => 'Reward',
+    'aliases' => 'Aliases',
+    'publication' => 'Publication',
+    'warning_message' => 'Warning message',
+    'age_max' => 'Age max',
+    'age_min' => 'Age min',
+    'additional_information' => 'Additional information',
+    'height_min' => 'Height min (inch)',
+    'height_max' => 'Height max (inch)',
+    'field_offices' => 'Field offices',
+    'occupations' => 'Occupation',
+    'details' => 'Details',
+    'sex' => 'Sex',
+    'scars_and_marks' => 'Scars and marks',
+    'build' => 'Build',
+    'nationality' => 'Nationality',
+    'caution' => 'Caution',
+    'race_raw' => 'Race',
+    'hair' => 'Hair',
+    'weight' => 'Weight',
+    'place_of_birth' => 'Place of birth',
+    'description' => 'Description',
+    'title' => 'Title',
+    'eyes' => 'Eyes',
+    'status' => 'Status',
+    'remarks' => 'Remarks',
+    'possible_states' => 'Possible states',
+    'subjects' => 'Subjects',
+    'languages' => 'Languages',
+    'possible_countries' => 'Possible countries',
+    'dates_of_birth_used' => 'Dates of birth used'
 ];
 
 
-echo '<table border=1>';
-	foreach ($arr as $user) {
-		echo '<tr>';
-		
-		echo "<td>{$user['name']}</td>";
-		echo "<td>{$user['age']}</td>";
-		echo "<td>{$user['salary']}</td>";
-		
-		echo '</tr>';
-	}
-echo '</table>';
+for ($i=0; $i < count($decodedFbiData['items']); $i++) {
 
-
-
-#####################################################
-echo '<br>';
-
-
-$supportiveArr = [
-    'Reward',
-    'Aliases',
-    'Publication',
-    'Warning message',
-    'Age max',
-    'Age min',
-    'Additional information',
-    'Height min',
-    'Height max',
-    'Field offices',
-    'Occupation',
-    'Details',
-    'Sex',
-    'Scars and marks',
-    'Build',
-    'Nationality',
-    'Caution',
-    'Race',
-    'Hair',
-    'Weight',
-    'Place of birth',
-    'Description',
-    'Title',
-    'Eyes',
-    'Status',
-    'Remarks',
-    'Possible states',
-    'Subjects',
-    'Languages',
-    'Possible countries',
-    'Dates of birth used',
-];
-
-//print_arr(array_keys($decodedFbiData['items'][0]));
-
-
-
-echo '<table border=1>';
-    foreach ($supportiveArr as $key) {
-        echo "<tr><td>$key</td></tr>";
+    echo '<table border=1 width="100%">';
+    foreach ($usedKeys as $key => $value) {
+        if (array_key_exists($key, $decodedFbiData['items'][$i])) {
+            echo "<tr>";
+            echo "<td width=200>" . $usedKeys[$key] . "</td>";
+            echo "<td>"; print_r($decodedFbiData['items'][$i][$key]); echo "</td>";
+            echo "</tr>";
+        }
     }
-echo '</table>';
-
-echo '<table border=1>';
-    foreach ($decodedFbiData['items'][0] as $value) {
-        echo "<tr><td>$value</td></tr>";
-    }
-echo '</table>';
-
-/* 
-echo '<table>';
-foreach ($decodedFbiData['items'] as $row => ) {
-
+    echo '</table>';
+    echo '<br>';
 }
-echo '</table>';
- */
