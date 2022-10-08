@@ -39,7 +39,6 @@ $usedKeys = [
 ];
 
 
-
 for ($i=0; $i < count($decodedFbiData['items']); $i++) {
 
     echo '<table border=1 width="100%">';
